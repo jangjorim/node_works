@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "Chap01",
+			"path": "..\\node_works\\Chap01"
+		},
+		{
+			"name": "Chap02",
+			"path": "..\\node_works\\Chap02"
+		},
+		{
+			"name": "Chap03",
+			"path": "..\\node_works\\Chap03"
+		},
+		{
+			"path": "..\\node_works\\Chap04"
+		}
+	],
+	"settings": {}
+}

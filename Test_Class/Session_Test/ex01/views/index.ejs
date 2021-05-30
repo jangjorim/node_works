@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>
+      <form action="http://localhost:3000/users", method="post">
+        <p>
+          <input type="radio" name="selectCookie" value="sessionCookie">
+          <label>세션쿠키</label>
+          <input type="radio" name="selectCookie" value="permanentCookie">
+          <label>Permanent쿠키</label>
+        </p>
+        <p>
+          쿠키입력(공백이 없는 영문자, 숫자): 
+          <input type="text" name="cookieName" id="cookieName">
+        </p>
+        <input type="submit" value="쿠키 만들기">
+      </form>
+    </p>
+  </body>
+</html>
